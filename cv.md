@@ -55,3 +55,18 @@ __Fix string case 7 kyu KATA from CODEWARS:__ *given a string that may have mixe
   }
 }
 ```
+
+### __Work experience:__
+
+I currently do not have any experience working as a web developer, but I have managed to work on projects from the courses I have completed, as well as practice on some layouts taken from Figma.
+
+__Here are links:__
+
+- [portfolio_1](https://github.com/lnrzhkv/portfolio-1)
+- [portfolio_2](https://github.com/lnrzhkv/portfolio-2)
+- [Landing Page "Creative agency"](https://github.com/lnrzhkv/landing-creative-agency)
+- [Greenmind Flower Shop](https://github.com/lnrzhkv/greenmind)
+
+My __training__ and __completed assignments__ for the __JavaScript__ course can be found in this [*repository*](https://github.com/PavelMelnik94/base-01).
+
+This repository was created by my friend, a working front-end developer, to help me learn JavaScript and review my assignments using pull requests.
