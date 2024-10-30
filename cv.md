@@ -2,7 +2,7 @@
 
 ## Junior Frontend Developer
 
-![cv-photo](/photo_cv)
+![cv-photo](/photo_cv.jpg)
 
 ### __Contact information:__
 
