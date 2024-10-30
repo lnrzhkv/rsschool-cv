@@ -17,7 +17,7 @@
 
 I am an aspiring front-end developer with a strong desire to learn and grow in the field of web development.
 
-My journey began with a fascination for how websites come alive, and I have since honed my skills in __HTML, CSS/SCSS, and JavaScript__. As well as I have experience working on academic projects.
+My journey began with a fascination from my friend for how websites come alive, and I have since honed my skills in __HTML, CSS/SCSS, and JavaScript__. As well as I have experience working on academic projects.
 
 I strive to achieve one goal: *creating foolproof and dynamic user interfaces*.
 
@@ -25,10 +25,10 @@ I enjoy *working in a team* where I can share my ideas and I appreciate *constru
 
 ### __Skills:__
 
-- HTML
-- CSS/SCSS
-- JavaScript (Basic)
-- Git, GitHub
+- __HTML__
+- __CSS/SCSS__
+- __JavaScript (Basic)__
+- __Git, GitHub__
 
 ### __Code example:__
 
@@ -58,7 +58,7 @@ __Fix string case 7 kyu KATA from CODEWARS:__ *given a string that may have mixe
 
 ### __Work experience:__
 
-I currently do not have any experience working as a web developer, but I have managed to work on projects from the courses I have completed, as well as practice on some layouts taken from Figma.
+Currently I don't have any experience working as a web developer, but I've managed to work on projects from the courses I've completed, as well as I do practice on some layouts taken from Figma.
 
 __Here are links:__
 
@@ -69,15 +69,15 @@ __Here are links:__
 
 My __training__ and __completed assignments__ for the __JavaScript__ course can be found in this [*repository*](https://github.com/PavelMelnik94/base-01).
 
-This repository was created by my friend, a working front-end developer, to help me learn JavaScript and review my assignments using pull requests.
+This repository was created by my friend, a current front-end developer, to help me to learn JavaScript and review my assignments using pull requests.
 
 ### __Education:__
 
 - Belorussian State University (linquist-interpreter, English, German), 2015 - 2020
-- Purpleschool HTML and CSS fundamental course, *2024*
-- CSS Flexbox course, Anton Larichev (Udemy), *2024*
-- Web-developer, Ivan Petrichenko (Udemy), *2024*
-- Fundamental JavaScript, Mikhail Nepomnyashchy (Udemy), *2024*
+- Purpleschool HTML and CSS fundamental course, 2024
+- CSS Flexbox course, Anton Larichev (Udemy), 2024
+- Web-developer, Ivan Petrichenko (Udemy), 2024
+- Fundamental JavaScript, Mikhail Nepomnyashchy (Udemy), 2024
 - Typescript course, Anton Larichev (Udemy), in progress
 
 ### __Languages:__
@@ -85,4 +85,4 @@ This repository was created by my friend, a working front-end developer, to help
 - Russian (Native)
 - English (Upper-intermediate)
 - German (Elementary)
-- Belorussian (Intermediate)
+- Belarussian (Intermediate)
