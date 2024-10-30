@@ -2,7 +2,7 @@
 
 ## Junior Frontend Developer
 
-![cv-photo](/photo_2024-10-30_12-03-33.jpg)
+![cv-photo](/photo_cv)
 
 ### __Contact information:__
 
