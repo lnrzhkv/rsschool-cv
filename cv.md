@@ -13,12 +13,19 @@
 - [__Telegram__](https://t.me/ln_rzhkv)
 - [__GitHub__](https://github.com/lnrzhkv)
 
-### Some info about me:
+### __Some info about me:__
 
 I am an aspiring front-end developer with a strong desire to learn and grow in the field of web development.
 
-My journey began with a fascination for how websites come alive, and I have since honed my skills in __HTML, CSS/SASS, and JavaScript__. As well as I have experience working on academic projects.
+My journey began with a fascination for how websites come alive, and I have since honed my skills in __HTML, CSS/SCSS, and JavaScript__. As well as I have experience working on academic projects.
 
 I strive to achieve one goal: *creating foolproof and dynamic user interfaces*.
 
 I enjoy *working in a team* where I can share my ideas and I appreciate *constructive feedback* as a tool for growth.
+
+### __Skills:__
+
+- HTML
+- CSS/SCSS
+- JavaScript (Basic)
+- Git, GitHub
