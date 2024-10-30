@@ -70,3 +70,12 @@ __Here are links:__
 My __training__ and __completed assignments__ for the __JavaScript__ course can be found in this [*repository*](https://github.com/PavelMelnik94/base-01).
 
 This repository was created by my friend, a working front-end developer, to help me learn JavaScript and review my assignments using pull requests.
+
+### __Education:__
+
+- Belorussian State University (linquist-interpreter, English, German), 2015 - 2020
+- Purpleschool HTML and CSS fundamental course, *2024*
+- CSS Flexbox course, Anton Larichev (Udemy), *2024*
+- Web-developer, Ivan Petrichenko (Udemy), *2024*
+- Fundamental JavaScript, Mikhail Nepomnyashchy (Udemy), *2024*
+- Typescript course, Anton Larichev (Udemy), in progress
