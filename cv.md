@@ -79,3 +79,10 @@ This repository was created by my friend, a working front-end developer, to help
 - Web-developer, Ivan Petrichenko (Udemy), *2024*
 - Fundamental JavaScript, Mikhail Nepomnyashchy (Udemy), *2024*
 - Typescript course, Anton Larichev (Udemy), in progress
+
+### __Languages:__
+
+- Russian (Native)
+- English (Upper-intermediate)
+- German (Elementary)
+- Belorussian (Intermediate)
