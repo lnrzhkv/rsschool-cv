@@ -2,7 +2,7 @@
 
 ## Junior Frontend Developer
 
-![cv-photo](/rsschool-cv/images/IMG_6173.HEIC)
+![cv-photo](/rsschool-cv/images/photo_2024-10-30_12-03-33.jpg)
 
 ### __Contact information:__
 
