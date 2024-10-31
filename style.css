@@ -11,6 +11,58 @@ body {
   margin: 0 auto;
 }
 
-img {
-  border-radius: 90px;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 16px 16px;
+  margin-top: 50px;
+}
+
+.photo {
+  grid-row: span 2 / span 2;
+}
+
+.title {
+  grid-column: span 4 / span 4;
+}
+
+.experience {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.skills {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+.languages {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 4;
+  grid-row-start: 4;
+}
+
+.education {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.contacts {
+  grid-row: span 3 / span 3;
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+div:not(.grid-container) {
+  border: 1px solid black;
+
+  min-height: 250px;
 }
