@@ -1,11 +1,20 @@
 * {
-  font-family: 'JetBrains Mono', monospace;
+  /* font-family: 'JetBrains Mono', monospace; */
   box-sizing: border-box;
   color: #d03b00;
   letter-spacing: 0.5px;
 }
 
+@font-face {
+    font-family: 'NeueKonstantGrotesk';
+    src: url('./assets/fonts/NeueKonstantGrotesk-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
 body {
+font-family: 'NeueKonstantGrotesk', sans-serif;
   background-color: #fdf7e9;
   max-width: 1200px;
   margin: 0 auto;
