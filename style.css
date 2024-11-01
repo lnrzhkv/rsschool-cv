@@ -38,12 +38,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: fit-content;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 700;
-  margin: auto;
+  margin: 0;
 }
 
 .experience {
@@ -78,14 +79,38 @@ h1 {
   grid-row: span 3 / span 3;
   grid-column-start: 1;
   grid-row-start: 2;
+  height: fit-content;
 }
 
-div:not(.grid-container) {
-  border: 1px solid black;
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
 
-  /* min-height: 250px; */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 4px;
+}
+
+.content-textarea {
+    font-size: 14px;
 }
 
 .subtitle {
+  display: flex;
+  justify-content: space-between;
   height: fit-content;
+  border-bottom: 1px solid #d03b00;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 4px;
 }
+
+/* div:not(.grid-container) {
+  border: 1px solid black;
+
+  /* min-height: 250px; */
+} */
