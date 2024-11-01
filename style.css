@@ -6,13 +6,12 @@
 }
 
 @font-face {
-    font-family: 'NeueKonstantGrotesk';
-    src: url('./assets/fonts/NeueKonstantGrotesk-Book.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  
+  font-family: 'NeueKonstantGrotesk';
+  src: url('./assets/fonts/NeueKonstantGrotesk-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #fdf7e9;
   max-width: 1200px;
@@ -34,7 +33,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-position:50%;
+  background-position: 50%;
   background-repeat: no-repeat;
 }
 
@@ -43,7 +42,7 @@ img {
 }
 
 .title {
-    font-family: 'NeueKonstantGrotesk', sans-serif;
+  font-family: 'NeueKonstantGrotesk', sans-serif;
   grid-column: span 4 / span 4;
   text-align: start;
   display: flex;
@@ -54,9 +53,9 @@ img {
 }
 
 h1 {
-    font-weight: 400;
-    font-size: 40px;
-    margin: 0;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
 }
 
 .experience {
@@ -68,7 +67,7 @@ h1 {
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .skills {
@@ -106,18 +105,18 @@ p {
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px;
 }
 
 .content-textarea {
-    font-size: 12px;
-    font-weight: 400;
+  font-size: 12px;
+  font-weight: 400;
 
-line-height: 140%;
-    font-family: "Inter", sans-serif;
+  line-height: 140%;
+  font-family: 'Inter', sans-serif;
 }
 
 .subtitle {
@@ -131,8 +130,8 @@ line-height: 140%;
   padding: 4px;
 }
 
-/* div:not(.grid-container) {
+div:not(.grid-container) {
   border: 1px solid black;
 
   /* min-height: 250px; */
-} */
+}
