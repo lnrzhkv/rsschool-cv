@@ -14,7 +14,6 @@
   
   
 body {
-font-family: 'NeueKonstantGrotesk', sans-serif;
   background-color: #fdf7e9;
   max-width: 1200px;
   margin: 0 auto;
@@ -44,6 +43,7 @@ img {
 }
 
 .title {
+    font-family: 'NeueKonstantGrotesk', sans-serif;
   grid-column: span 4 / span 4;
   text-align: start;
   display: flex;
@@ -113,7 +113,11 @@ p {
 }
 
 .content-textarea {
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
+
+line-height: 140%;
+    font-family: "Inter", sans-serif;
 }
 
 .subtitle {
@@ -121,6 +125,7 @@ p {
   justify-content: space-between;
   height: fit-content;
   border-bottom: 1px solid #d03b00;
+  font-family: 'NeueKonstantGrotesk', sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
   padding: 4px;
