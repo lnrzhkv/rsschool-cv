@@ -34,7 +34,7 @@ I enjoy *working in a team* where I can share my ideas and I appreciate *constru
 
 __Fix string case 7 kyu KATA from CODEWARS:__ *given a string that may have mixed uppercase and lowercase letters and your task is to convert that string to either lowercase only or uppercase only.*
 
-```function solve(s) {
+``` function solve(s) {
     let lowerCount = 0;
     let upperCount = 0;
   
