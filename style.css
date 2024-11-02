@@ -92,6 +92,14 @@ a {
   grid-row: span 2 / span 2;
   grid-column-start: 4;
   grid-row-start: 2;
+  width: 310px;
+  height: fit-content;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
 }
 
 .languages {
