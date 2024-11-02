@@ -77,10 +77,14 @@ ul {
   gap: 8px;
   padding-left: 14px;
   font-family: 'Inter', sans-serif;
+  list-style: circle;
 }
 
 a {
   text-decoration: none;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
 }
 
 .skills {
@@ -102,6 +106,15 @@ a {
   grid-row: span 2 / span 2;
   grid-column-start: 2;
   grid-row-start: 4;
+  width: 310px;
+  height: fit-content;
+}
+
+.date {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 140%;
 }
 
 .contacts {
