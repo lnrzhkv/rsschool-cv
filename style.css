@@ -13,21 +13,22 @@
 
 body {
   background-color: #fdf7e9;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1.5fr repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 1.5fr repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
   gap: 16px 16px;
   margin-top: 50px;
 }
 
 .photo {
   grid-row: span 1 / span 2;
-  width: 310px;
+  width: 258px;
   height: 300px;
   display: flex;
   justify-content: center;
@@ -49,7 +50,7 @@ img {
   align-items: center;
   justify-content: center;
   height: fit-content;
-  width: 658px;
+  width: 675px;
 }
 
 .strong {
@@ -67,7 +68,7 @@ h1 {
   grid-row: span 2 / span 2;
   grid-column-start: 2;
   grid-row-start: 2;
-  width: 310px;
+  width: 380px;
   height: fit-content;
 }
 
@@ -97,7 +98,7 @@ a {
   grid-row: span 2 / span 2;
   grid-column-start: 4;
   grid-row-start: 2;
-  width: 310px;
+  width: 279px;
   height: fit-content;
 }
 
@@ -112,6 +113,9 @@ h4 {
   grid-row: span 2 / span 2;
   grid-column-start: 4;
   grid-row-start: 4;
+  width: 279px;
+  height: fit-content;
+  margin-top: -200px;
 }
 
 .education {
@@ -119,7 +123,7 @@ h4 {
   grid-row: span 2 / span 2;
   grid-column-start: 2;
   grid-row-start: 4;
-  width: 310px;
+  width: 380px;
   height: fit-content;
 }
 
@@ -135,7 +139,7 @@ h4 {
   grid-column-start: 1;
   grid-row-start: 2;
   height: fit-content;
-  width: 310px;
+  width: 258px;
 }
 
 .content-wrapper {
@@ -167,10 +171,4 @@ h4 {
   font-size: 20px;
   letter-spacing: 1px;
   padding: 4px;
-}
-
-div:not(.grid-container) {
-  border: 1px solid black;
-
-  /* min-height: 250px; */
 }
