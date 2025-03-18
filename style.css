@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  color: #FFF;
+  letter-spacing: 0.5px;
+}
+
+@font-face {
+  font-family: 'NeueKonstantGrotesk';
+  src: url('./assets/fonts/NeueKonstantGrotesk-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #181818;
+  position: relative;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  width: 100%;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 130px;
+}
+
+img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'NeueKonstantGrotesk', sans-serif;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: 675px;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 74px;
+  margin: 0;
+}
+
+.experience {
+  height: fit-content;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 14px;
+  font-family: 'Inter', sans-serif;
+  list-style: circle;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 326px);
+  grid-template-rows: repeat(1, 690px);
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.skills {
+  margin-top: -140px;
+  height: fit-content;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.languages {
+  height: fit-content;
+  margin-top: -140px;
+}
+
+.about-info {
+  height: fit-content;
+}
+
+.about-info .info-wrapper {
+  gap: 18px;
+}
+
+.education {
+  height: fit-content;
+}
+
+.education .info-wrapper .content {
+  gap: 18px;
+}
+
+.date {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 140%;
+}
+
+.contacts {
+  height: 300px;
+  margin-top: -398px;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 4px;
+}
+
+.content-textarea {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: 'Inter', sans-serif;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  border-bottom: 1px solid #FFF;
+  font-family: 'NeueKonstantGrotesk', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 4px;
+}
+
+*:not(h1):hover {
+  color: orangered;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+
+@media (max-width: 1039px)  {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .container > div {
+    display: flex;
+    gap: 20px;
+  }
+
+  .content-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .languages {
+    margin-top: 0;
+  }
+
+  img {
+    display: none;
+  }
+
+  .title {
+    width: auto;
+  }
+
+  .contacts {
+    margin-top: 0;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .skills {
+    margin-top: 0;
+  }
+
+  .education {
+    margin-top: 0;
+  }
+
+  .contacts {
+    margin-top: 0;
+  }
+}
